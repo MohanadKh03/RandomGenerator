@@ -44,9 +44,6 @@ public class Window {
         generateButton.setPreferredSize(new Dimension(100,40));
         generateButton.setToolTipText("Generate random numbers !");
     }
-    public boolean isButtonPressed(){
-        return generateButton.getModel().isPressed();
-    }
     public void GenerateRandomNumber(){
         generateButton.addActionListener(new ActionListener() {
             @Override
